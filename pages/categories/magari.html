@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="sw"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magari – Iringa Soko Mkononi</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css"></head>
+<body data-root="../../" data-page="cat" data-cat="Magari"><div class="wrap"><div class="head"><h1>Magari</h1><p>Magari ya aina mbalimbali, sedan, SUV na magari ya biashara.</p></div>
+<div class="tools"><input id="q" placeholder="Tafuta bidhaa, muuzaji au eneo" aria-label="Tafuta">
+<select id="sort" aria-label="Panga"><option value="n">Mpya kwanza</option><option value="a">Bei ndogo kwanza</option><option value="d">Bei kubwa kwanza</option></select></div>
+<div class="grid" id="grid"></div></div>
+<dialog id="sellD"><h3>Weka bidhaa (Magari)</h3><form id="f">
+<label>Jina la bidhaa<input name="item" required></label>
+<div class="two"><label>Bei (TSh)<input name="price" type="number" min="1" required></label><label>Hali<select name="cond"><option>Mpya</option><option>Imetumika</option><option value="">Haihusiki</option></select></label></div>
+<div class="two"><label>Eneo<input name="vil" required></label><label>Jina lako<input name="name" required></label></div>
+<label>Namba ya WhatsApp<input name="tel" required placeholder="2557xxxxxxxx"></label>
+<div class="two"><button type="button" class="btn b3" onclick="sellD.close()">Ghairi</button><button class="btn b1">Weka sokoni</button></div></form></dialog><script src="../../js/app.js"></script></body></html>

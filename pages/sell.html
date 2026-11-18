@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="sw"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uza bidhaa – Iringa Soko Mkononi</title><link rel="stylesheet" href="../css/style.css"></head>
+<body data-root="../" data-page="sell"><main class="wrap page-narrow"><div class="head"><h1>Uza bidhaa</h1><p>Weka bidhaa yako sokoni na ufikie wanunuzi wa Iringa.</p></div>
+<form id="sellForm" class="card pd sell-form">
+<label>Kategoria<select name="category" required><option value="">Chagua kategoria</option><option>Mazao</option><option>Simu</option><option>Electronics</option><option>Nguo</option><option>Viatu</option><option>Samani</option><option>Magari</option><option>Huduma</option></select></label>
+<label>Jina la bidhaa<input name="item" required placeholder="Mf. Mahindi gunia 100kg"></label>
+<div class="two"><label>Bei (TSh)<input name="price" type="number" min="1" required></label><label>Hali<select name="cond"><option>Mpya</option><option>Imetumika</option><option value="">Haihusiki</option></select></label></div>
+<div class="two"><label>Eneo<input name="vil" required placeholder="Mf. Iringa Mjini"></label><label>Jina la muuzaji<input name="name" required></label></div>
+<label>Namba ya WhatsApp<input name="tel" required placeholder="2557xxxxxxxx"></label>
+<label>Picha ya bidhaa (si lazima)<input id="productImage" type="file" accept="image/*"></label><img id="imagePreview" class="image-preview" alt="Muonekano wa picha" hidden>
+<button class="btn b1" type="submit">Weka bidhaa sokoni</button><p class="muted-note">Picha huhifadhiwa kwenye kifaa chako katika toleo hili la majaribio.</p></form></main><script src="../js/app.js"></script></body></html>

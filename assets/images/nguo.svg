@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Nguo">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#eff5ed"/><stop offset="1" stop-color="#d8e8d9"/></linearGradient></defs>
+<rect width="400" height="300" rx="22" fill="url(#bg)"/><ellipse cx="200" cy="267" rx="145" ry="12" fill="#9ab6a0" opacity=".45"/><path d="M150 52l50 25 50-25 55 53-38 42-23-19v144H156V128l-23 19-38-42z" fill="#d86d8e" stroke="#873e5a" stroke-width="7"/><path d="M177 68q23 34 46 0" fill="none" stroke="#f8d9df" stroke-width="8"/>
+<text x="200" y="289" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#315b43">Nguo</text></svg>

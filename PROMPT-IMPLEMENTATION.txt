@@ -1,0 +1,13 @@
+REKEBISHA MRADI ULIOPO WA IRINGA SOKO MKONONI — USIANZISHE MRADI MPYA.
+
+Fanya maboresho ndani ya codebase na muundo wa ZIP uliopo. Hifadhi kurasa, vipengele na mtindo unaofanya kazi; badilisha au ongeza tu vinavyohitajika.
+
+1. Fanya nembo/icon ya Iringa Soko Mkononi iwe na animation laini na isiyokera. Kwenye ukurasa wa mwanzo, boresha sehemu ya hero na buttons za “Angalia bidhaa”, “Jisajili” na ongeza button ya “Uza bidhaa”.
+2. Tumia picha halisi zinazolingana na aina ya bidhaa: magari yaonyeshwe magari, mahindi yaonyeshwe mahindi, simu zionyeshe simu, samani zionyeshe samani, n.k. Weka picha zote ndani ya folder `assets/images/` na ujumuishe folder hilo ndani ya ZIP. Ruhusu muuzaji kupakia picha ya bidhaa.
+3. Ondoa kurasa na viungo vya maelezo ya jumla na usalama kutoka kwenye interface ya wateja. Usiongeze maandishi hayo kwenye menyu ya mfumo.
+4. Ongeza sehemu ya usafirishaji/logistics yenye delivery address, tracking number na hali ya mzigo. Tofautisha wazi demo ya ndani na live tracking inayohitaji API ya kampuni ya usafirishaji.
+5. Ongeza messaging/customer-support area yenye kuhifadhi kumbukumbu za mazungumzo (logs) na chatbot inayoweza kuelekeza watumiaji jinsi ya kutumia mfumo. Iweke wazi kama chatbot ya majibu ya kawaida au AI halisi; usidai integrations ambazo hazipo.
+6. Panga backend ya baadaye kwa microservices badala ya monolith. Gawanya majukumu kimantiki kama identity, catalog, media, orders, delivery, messaging, support, notifications na payments. Andika architecture notes kwa developers, lakini usionyeshe nyaraka hizo kama ukurasa wa kawaida wa wateja.
+7. Boresha UI kwa loading spinners, disabled states, error handling na ujumbe wa mafanikio/kushindwa. Tumia browser storage kwa data za demo na ushughulikie hali ya storage kujaa au kutopatikana.
+8. Usibuni backend, database, malipo, login, AI, au live tracking kana kwamba tayari vinafanya kazi. Kama vinahitaji server au API, viweke kama integration inayofuata na eleza mipaka yake kwenye developer notes.
+9. Hakikisha tovuti inafanya kazi kwenye simu na desktop, link zote ni sahihi, JavaScript haina syntax errors, na ZIP ya mwisho ina mradi mzima pamoja na assets.
